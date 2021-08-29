@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Even and Odd</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        .score-box > h4, .calculation, .result {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculation">
+        <h2>Even number increases the score by 2 and odd number decreases the score by 2</h2>
+        <h3>Enter an intiger</h3>
+        <input type="text" class="input-text" value="0">
+        <button onclick="even_odd()">Verify</button>
+        <div class="score-box">
+            <h4>Score:</h4>
+            <h4 class="score">0</h4>
+        </div>
+    </div>
+    <div class="result"><h1></h1></div>
+
+    <script src="even&odd.js"></script>
+    
+</body>
+</html>
